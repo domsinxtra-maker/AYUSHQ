@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AYUSHQ - Ask questions about education, science, maths, history, countries and more.">
+  <meta name="theme-color" content="#101828">
+  <title>AYUSHQ - Ask Anything</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">AYUSH<span>Q</span></div>
+  <button id="themeBtn">☀️</button>
+</header>
+
+<main>
+
+  <section class="hero" id="home">
+    <div class="badge">✦ AI QUESTION ANSWER</div>
+
+    <h1>Ask <span>Anything.</span></h1>
+
+    <p>
+      Education, Science, Maths, History, Countries, Technology
+      or everyday questions — ask AYUSHQ.
+    </p>
+
+    <div class="chat-box">
+      <textarea id="question"
+        placeholder="Ask AYUSHQ anything..."></textarea>
+
+      <div class="chat-bottom">
+        <span>✦ AYUSHQ AI</span>
+        <button id="askBtn">Ask ➜</button>
+      </div>
+    </div>
+
+    <div class="suggestions">
+      <button onclick="setQuestion('Explain photosynthesis in simple language')">
+        🔬 Science
+      </button>
+
+      <button onclick="setQuestion('Solve 25 × 18 and explain it')">
+        ➗ Maths
+      </button>
+
+      <button onclick="setQuestion('Tell me about the history of India')">
+        📜 History
+      </button>
+
+      <button onclick="setQuestion('Explain this topic like a Class 10 student')">
+        📚 Education
+      </button>
+    </div>
+  </section>
+
+  <section class="answer-section" id="answerSection">
+    <div class="answer-card">
+
+      <div class="answer-title">
+        <span>✦ AYUSHQ</span>
+        <button id="copyBtn">Copy</button>
+      </div>
+
+      <div id="answer">
+        Your answer will appear here...
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <b>AYUSHQ</b> — Ask. Learn. Discover.
+</footer>
+
+<script src="script.js"></script>
+</body>
+                                               </html>
